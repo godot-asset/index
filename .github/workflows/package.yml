@@ -1,0 +1,96 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Package
+
+# Controls when the action will run. 
+on:
+  repository_dispatch:
+    types: [package]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      - run: 'echo "payload: ${{ toJson(github.event.client_payload) }}"'
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+
+      - name: Check meta file existance
+        run: |
+          FN="meta/${PACKAGE_NAME}/${PACKAGE_NAME}_${VERSION}_meta.json"
+          if [ -f "$FN" ]; then
+              echo "Error: Meta file already exists"
+              exit 1
+          fi
+        env:
+          PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
+          VERSION: ${{github.event.client_payload.meta.version}}
+
+      #- name: Create branch
+      #  run: |
+      #    hub checkout -b "${PACKAGE_NAME}@${VERSION}"
+      #  env:
+      #    PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
+      #    VERSION: ${{github.event.client_payload.meta.version}}
+        
+      - uses: 1arp/create-a-file-action@0.2
+        with:
+          path: 'meta/${{github.event.client_payload.meta.name}}'
+          file: '${{github.event.client_payload.meta.name}}_${{github.event.client_payload.meta.version}}_meta.json'
+          content: '${{toJson(github.event.client_payload.meta)}}\n'
+
+      - name: Check & store signature
+        run: |
+          SIG=""
+          if [ -f 'known_authors' ]; then
+              SIG=`cat known_authors | grep "${PACKAGE_NAME}" | awk -F": " '{print $2}'`
+          fi
+          if [ -z "$SIG" ]; then
+              echo "Add new signature for package"
+              echo "${PACKAGE_NAME}: ${SIGNATURE}" >> known_authors
+          else
+              if [ "$SIG" == "${SIGNATURE}" ]; then
+                  echo "Signature validation passed"
+              else
+                  echo "Signature validation failed"
+                  exit 1
+              fi
+          fi
+        env:
+          PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
+          SIGNATURE: ${{github.event.client_payload.signature}}
+
+      #- name: Create remote branch
+      #  run: |
+      #    hub push -u origin "${PACKAGE_NAME}@${VERSION}"
+      #  env:
+      #    PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
+      #    VERSION: ${{github.event.client_payload.meta.version}}
+
+      #- uses: EndBug/add-and-commit@v7
+      #  with:
+      #    add: '.'
+      #    author_name: "${{github.event.client_payload.meta.author.name}}"
+      #    author_email: "${{github.event.client_payload.meta.author.name}}@godotassetindex.web.app"
+      #    branch: "${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}"
+      #    message: "New package ${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}"
+      #    push: true
+
+      - name: Create Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: New package ${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}
+          committer: GitHub <noreply@github.com>
+          author: ${{github.event.client_payload.meta.author.name}} <${{github.event.client_payload.meta.author.name}}@godotassetindex.web.app>
+          branch: ${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}
+          delete-branch: true
+          title: "chore(data): new package ${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}"
+          body: Add meta file for new package

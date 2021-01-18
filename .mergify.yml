@@ -11,3 +11,16 @@ pull_request_rules:
         method: merge
       comment:
         message: "Thank you for contributing to the Godot Asset Index. 🎉"
+  - name: Automatic merge for new package with new author signature
+    conditions:
+      - "#files=2"
+      - "files=known_authors"
+      - "files~=meta/[a-zA-Z0-9\\-]+/[a-zA-Z0-9\\-]+_\\d+\\.\\d+\\.\\d+_meta\\.json$"
+      - -conflict
+      - -merged
+      - "title~=^chore\\(data\\): new package"
+    actions:
+      merge:
+        method: merge
+      comment:
+        message: "Thank you for contributing to the Godot Asset Index. 🎉"

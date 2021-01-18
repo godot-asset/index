@@ -1,0 +1,20 @@
+pull_request_rules:
+  - name: Automatic merge for adding new package
+    conditions:
+      - "#files=1"
+      - "files~=meta\\/[a-zA-Z0-9\\-]+\\/[a-zA-Z0-9\\-]+_\\d+\\.\\d+\\.\\d+_meta\\.json$"
+      - -conflict
+      - -merged
+      - "title~=^chore\\(data\\): new package"
+    actions:
+      merge:
+        method: merge
+      comment:
+        message: "Thank you for contributing to the Godot Asset Index. 🎉"
+pull_request_rules:
+  - name: Automatic merge on approval
+    conditions:
+      - "#approved-reviews-by>=1"
+    actions:
+      merge:
+        method: merge

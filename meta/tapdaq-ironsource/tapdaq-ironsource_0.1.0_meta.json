@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "dependencies": [
+    "tapdaq@0.1.0"
+  ],
+  "description": "IronSource adapter for Tapdaq plugin.",
+  "license": "MIT",
+  "name": "tapdaq-ironsource",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq-ironsource_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/tapdaq-ironsource_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T13:15:04.629350",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "version": "0.1.0"
+}

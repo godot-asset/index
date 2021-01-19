@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "dependencies": [
+    "tapdaq@0.1.0"
+  ],
+  "description": "AdColony adapter for Tapdaq plugin.",
+  "license": "MIT",
+  "name": "tapdaq-adcolony",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq-adcolony_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/tapdaq-adcolony_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:50:34.910779",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "version": "0.1.0"
+}

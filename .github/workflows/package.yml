@@ -1,5 +1,3 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Package
 
 # Controls when the action will run. 
@@ -16,8 +14,6 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - run: 'echo "payload: ${{ toJson(github.event.client_payload) }}"'
-
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
 
@@ -32,13 +28,6 @@ jobs:
           PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
           VERSION: ${{github.event.client_payload.meta.version}}
 
-      #- name: Create branch
-      #  run: |
-      #    hub checkout -b "${PACKAGE_NAME}@${VERSION}"
-      #  env:
-      #    PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
-      #    VERSION: ${{github.event.client_payload.meta.version}}
-        
       - uses: 1arp/create-a-file-action@0.2
         with:
           path: 'meta/${{github.event.client_payload.meta.name}}'
@@ -65,22 +54,6 @@ jobs:
         env:
           PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
           SIGNATURE: ${{github.event.client_payload.signature}}
-
-      #- name: Create remote branch
-      #  run: |
-      #    hub push -u origin "${PACKAGE_NAME}@${VERSION}"
-      #  env:
-      #    PACKAGE_NAME: ${{github.event.client_payload.meta.name}}
-      #    VERSION: ${{github.event.client_payload.meta.version}}
-
-      #- uses: EndBug/add-and-commit@v7
-      #  with:
-      #    add: '.'
-      #    author_name: "${{github.event.client_payload.meta.author.name}}"
-      #    author_email: "${{github.event.client_payload.meta.author.name}}@godotassetindex.web.app"
-      #    branch: "${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}"
-      #    message: "New package ${{github.event.client_payload.meta.name}}@${{github.event.client_payload.meta.version}}"
-      #    push: true
 
       - name: Create Pull Request
         id: cpr

@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "dependencies": [
+    "tapdaq@0.1.0"
+  ],
+  "description": "AppLovin adapter for Tapdaq plugin.",
+  "license": "MIT",
+  "name": "tapdaq-applovin",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq-applovin_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/tapdaq-applovin_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:53:04.994832",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "version": "0.1.0"
+}

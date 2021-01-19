@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "dependencies": [
+    "firebase-core@0.1.0"
+  ],
+  "description": "Firebase performance package",
+  "license": "MIT",
+  "name": "firebase-performance",
+  "platform_android": {
+    "files": [
+      {
+        "name": "firebase-performance_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/firebase-performance_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:31:36.053996",
+  "url": "https://github.com/DrMoriarty/godot-firebase-performance.git",
+  "version": "0.1.0"
+}

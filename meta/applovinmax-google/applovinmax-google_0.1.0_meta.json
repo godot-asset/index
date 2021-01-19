@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "dependencies": [
+    "applovinmax@0.1.1"
+  ],
+  "description": "Google (AdMob) adapter for AppLovin-Max plugin.",
+  "license": "MIT",
+  "name": "applovinmax-google",
+  "platform_android": {
+    "files": [
+      {
+        "name": "applovinmax-google_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/applovinmax-google_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "files": [
+      {
+        "name": "applovinmax-google_0.1.0_ios.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/applovinmax-google_0.1.0_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:04:18.991988",
+  "url": "https://github.com/DrMoriarty/godot-applovinmax.git",
+  "version": "0.1.0"
+}

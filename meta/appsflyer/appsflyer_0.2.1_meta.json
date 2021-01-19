@@ -1,0 +1,50 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "appsflyer": "*res://scripts/appsflyer.gd"
+  },
+  "dependencies": [
+    "nativelib-export@0.1.0"
+  ],
+  "description": "AppsFlyer plugin for Godot engine",
+  "files": [
+    {
+      "name": "appsflyer_0.2.1_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/appsflyer_0.2.1_all.tgz"
+    }
+  ],
+  "license": "MIT",
+  "name": "appsflyer",
+  "platform_android": {
+    "files": [
+      {
+        "name": "appsflyer_0.2.1_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/appsflyer_0.2.1_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [],
+    "files": [
+      {
+        "name": "appsflyer_0.2.1_ios.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/appsflyer_0.2.1_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:06:11.955711",
+  "url": "https://github.com/DrMoriarty/godot-appsflyer.git",
+  "variables": {
+    "AppsFlyer/APP_ID": {
+      "info": "Set your Apple App ID here"
+    },
+    "AppsFlyer/DevKey": {
+      "info": "Set your DevKey here"
+    }
+  },
+  "version": "0.2.1"
+}

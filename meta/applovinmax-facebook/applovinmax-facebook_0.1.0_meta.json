@@ -1,0 +1,31 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "dependencies": [
+    "applovinmax@0.1.1"
+  ],
+  "description": "Facebook Audience Network adapter for AppLovin-Max plugin.",
+  "license": "MIT",
+  "name": "applovinmax-facebook",
+  "platform_android": {
+    "files": [
+      {
+        "name": "applovinmax-facebook_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/applovinmax-facebook_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "files": [
+      {
+        "name": "applovinmax-facebook_0.1.0_ios.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/applovinmax-facebook_0.1.0_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:03:38.866934",
+  "url": "https://github.com/DrMoriarty/godot-applovinmax.git",
+  "version": "0.1.0"
+}

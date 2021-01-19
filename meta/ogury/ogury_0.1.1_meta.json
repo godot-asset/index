@@ -1,0 +1,35 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "ogury": "*res://scripts/ogury.gd"
+  },
+  "description": "Ogury Choice Manager plugin. GDPR and CCPA consent solution.",
+  "files": [
+    {
+      "name": "ogury_0.1.1_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/ogury_0.1.1_all.tgz"
+    }
+  ],
+  "license": "MIT",
+  "name": "ogury",
+  "platform_android": {
+    "files": [
+      {
+        "name": "ogury_0.1.1_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/ogury_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:43:22.416740",
+  "url": "https://github.com/DrMoriarty/godot-ogury",
+  "variables": {
+    "Ogury/AssetKey": {
+      "info": "Set your Asset Key here"
+    }
+  },
+  "version": "0.1.1"
+}

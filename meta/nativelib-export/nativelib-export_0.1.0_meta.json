@@ -1,0 +1,18 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "description": "Common NativeLib export plugin for processing binary resources for iOS/Android",
+  "files": [
+    {
+      "name": "nativelib-export_0.1.0_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/nativelib-export_0.1.0_all.tgz"
+    }
+  ],
+  "license": "MIT",
+  "name": "nativelib-export",
+  "updated": "2021-01-19T12:48:04.545208",
+  "url": "https://github.com/DrMoriarty/nativelib-export-plugin.git",
+  "version": "0.1.0"
+}

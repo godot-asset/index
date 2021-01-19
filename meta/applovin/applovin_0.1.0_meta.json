@@ -1,0 +1,36 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "applovin": "*res://scripts/applovin.gd"
+  },
+  "dependencies": [],
+  "description": "AppLovin plugin. Ad network for mobile applications.",
+  "files": [
+    {
+      "name": "applovin_0.1.0_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/applovin_0.1.0_all.tgz"
+    }
+  ],
+  "license": "MIT",
+  "name": "applovin",
+  "platform_android": {
+    "files": [
+      {
+        "name": "applovin_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/applovin_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T11:58:38.102669",
+  "url": "https://github.com/DrMoriarty/godot-applovin",
+  "variables": {
+    "AppLovin/SdkKey": {
+      "info": "Set your App ID here"
+    }
+  },
+  "version": "0.1.0"
+}

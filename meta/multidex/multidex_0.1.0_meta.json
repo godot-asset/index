@@ -1,0 +1,20 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "description": "Multidex support for Godot engine",
+  "license": "MIT",
+  "name": "multidex",
+  "platform_android": {
+    "files": [
+      {
+        "name": "multidex_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/multidex_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:40:44.685657",
+  "url": "https://github.com/DrMoriarty/godot-multidex.git",
+  "version": "0.1.0"
+}

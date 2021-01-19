@@ -38,7 +38,7 @@ jobs:
         run: |
           SIG=""
           if [ -f 'known_authors' ]; then
-              SIG=`cat known_authors | grep "${PACKAGE_NAME}" | awk -F": " '{print $2}'`
+              SIG=`cat known_authors | grep -E "^${PACKAGE_NAME}: " | awk -F": " '{print $2}'`
           fi
           if [ -z "$SIG" ]; then
               echo "Add new signature for package"

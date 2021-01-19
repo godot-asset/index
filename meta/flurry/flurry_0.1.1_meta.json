@@ -1,0 +1,45 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "flurry": "*res://scripts/flurry.gd"
+  },
+  "dependencies": [],
+  "description": "Flurry Analytics plugin for Godot engine",
+  "files": [
+    {
+      "name": "flurry_0.1.1_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/flurry_0.1.1_all.tgz"
+    }
+  ],
+  "license": "MIT",
+  "name": "flurry",
+  "platform_android": {
+    "files": [
+      {
+        "name": "flurry_0.1.1_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/flurry_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [],
+    "files": [
+      {
+        "name": "flurry_0.1.1_ios.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/flurry_0.1.1_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:36:42.040260",
+  "url": "https://github.com/DrMoriarty/godot-flurry.git",
+  "variables": {
+    "Flurry/API_KEY": {
+      "info": "Set your Api Key here"
+    }
+  },
+  "version": "0.1.1"
+}

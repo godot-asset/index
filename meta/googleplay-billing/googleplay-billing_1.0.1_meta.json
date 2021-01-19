@@ -1,0 +1,21 @@
+{
+  "author": {
+    "name": "Godot Core Team",
+    "url": "https://github.com/godotengine/godot-google-play-billing/graphs/contributors"
+  },
+  "dependencies": [],
+  "description": "Godot Android plugin for the Google Play Billing library",
+  "license": "MIT",
+  "name": "googleplay-billing",
+  "platform_android": {
+    "files": [
+      {
+        "name": "googleplay-billing_1.0.1_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/googleplay-billing_1.0.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:37:57.879115",
+  "url": "https://github.com/godotengine/godot-google-play-billing",
+  "version": "1.0.1"
+}

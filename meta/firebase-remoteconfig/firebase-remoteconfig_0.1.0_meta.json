@@ -1,0 +1,33 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "remote_config": "*res://scripts/remote_config.gd"
+  },
+  "dependencies": [
+    "firebase-core@0.1.0"
+  ],
+  "description": "Firebase Remote Config plugin",
+  "files": [
+    {
+      "name": "firebase-remoteconfig_0.1.0_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/firebase-remoteconfig_0.1.0_all.tgz"
+    }
+  ],
+  "license": "MIT",
+  "name": "firebase-remoteconfig",
+  "platform_android": {
+    "files": [
+      {
+        "name": "firebase-remoteconfig_0.1.0_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/firebase-remoteconfig_0.1.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-19T12:33:00.899992",
+  "url": "https://github.com/DrMoriarty/godot-firebase-remoteconfig",
+  "version": "0.1.0"
+}

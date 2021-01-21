@@ -1,0 +1,42 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "localnotification": "*res://scripts/localnotification.gd"
+  },
+  "category": "misc",
+  "description": "Local notification plugin for iOS/Android",
+  "display_name": "Local/Push Notifications",
+  "files": [
+    {
+      "name": "local-notification_0.1.4_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/local-notification_0.1.4_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "local-notification",
+  "platform_android": {
+    "files": [
+      {
+        "name": "local-notification_0.1.4_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/local-notification_0.1.4_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [],
+    "files": [
+      {
+        "name": "local-notification_0.1.4_ios.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/local-notification_0.1.4_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-01-21T08:43:35.846585",
+  "url": "https://github.com/DrMoriarty/godot-local-notification.git",
+  "version": "0.1.4"
+}

@@ -1,0 +1,51 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "facebook": "*res://scripts/facebook.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "nativelib-export@0.1.0"
+  ],
+  "description": "Facebook plugin",
+  "display_name": "Facebook SDK",
+  "files": [
+    {
+      "name": "facebook_0.1.5_all.tgz",
+      "url": "https://dl.bintray.com/mobilap/nativelib/facebook_0.1.5_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "facebook",
+  "platform_android": {
+    "android_module": "org/godotengine/godot/GodotFacebook",
+    "files": [
+      {
+        "name": "facebook_0.1.5_android.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/facebook_0.1.5_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [],
+    "files": [
+      {
+        "name": "facebook_0.1.5_ios.tgz",
+        "url": "https://dl.bintray.com/mobilap/nativelib/facebook_0.1.5_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-02-08T18:12:45.127742",
+  "url": "https://github.com/DrMoriarty/godot-facebook",
+  "variables": {
+    "Facebook/FB_APP_ID": {
+      "info": "Set your Facebook App ID here"
+    }
+  },
+  "version": "0.1.5"
+}

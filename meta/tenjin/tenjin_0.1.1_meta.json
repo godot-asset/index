@@ -1,0 +1,38 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "tenjin": "*res://scripts/tenjin.gd"
+  },
+  "category": "misc",
+  "description": "Tenjin plugin. Free attribution, Ad Revenue LTV, Cost and ad revenue aggregation.",
+  "display_name": "Tenjin attribution",
+  "files": [
+    {
+      "name": "tenjin_0.1.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-tenjin/releases/download/v0.1.1/tenjin_0.1.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "tenjin",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tenjin_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-tenjin/releases/download/v0.1.1/tenjin_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-02-13T09:33:58.601721",
+  "url": "https://github.com/DrMoriarty/godot-tenjin",
+  "variables": {
+    "Tenjin/ApiKey": {
+      "info": "Set your API key here"
+    }
+  },
+  "version": "0.1.1"
+}

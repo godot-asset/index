@@ -1,0 +1,36 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "fba": "*res://scripts/fba.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "firebase-core@0.1.0"
+  ],
+  "description": "Firebase Analytics plugin (also supports Google Analytics with Firebase account)",
+  "display_name": "Firebase Analytics",
+  "files": [
+    {
+      "name": "firebase-analytics_0.1.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-firebase-analytics/releases/download/v0.1.1/firebase-analytics_0.1.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "firebase-analytics",
+  "platform_android": {
+    "files": [
+      {
+        "name": "firebase-analytics_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-firebase-analytics/releases/download/v0.1.1/firebase-analytics_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-02-19T11:59:30.327157",
+  "url": "https://github.com/DrMoriarty/godot-firebase-analytics",
+  "version": "0.1.1"
+}

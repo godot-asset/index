@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Godot core team",
+    "url": "https://godotengine.org"
+  },
+  "category": "misc",
+  "description": "Apple GameCenter plugin",
+  "display_name": "GameCenter",
+  "godot_version": "3.2.4",
+  "license": "MIT",
+  "name": "core.gamecenter",
+  "platform_ios": {
+    "files": [
+      {
+        "name": "core.gamecenter_3.2.4-rc3_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-core-ios-plugins/releases/download/v3.2.4-rc3/core.gamecenter_3.2.4-rc3_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-02-27T15:33:45.953348",
+  "url": "https://github.com/godotengine/godot-ios-plugins",
+  "version": "3.2.4-rc3"
+}

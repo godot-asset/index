@@ -1,0 +1,23 @@
+{
+  "author": {
+    "name": "Godot core team",
+    "url": "https://godotengine.org"
+  },
+  "category": "misc",
+  "description": "Apple push notification plugin",
+  "display_name": "APN",
+  "godot_version": "3.2.4",
+  "license": "MIT",
+  "name": "core.apn",
+  "platform_ios": {
+    "files": [
+      {
+        "name": "core.apn_3.2.4-rc4_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-core-ios-plugins/releases/download/v3.2.4-rc4/core.apn_3.2.4-rc4_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-11T09:01:40.993594",
+  "url": "https://github.com/godotengine/godot-ios-plugins",
+  "version": "3.2.4-rc4"
+}

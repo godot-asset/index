@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "category": "misc",
+  "dependencies": [
+    "tapdaq@1.0.0"
+  ],
+  "description": "Mintegral adapter for Tapdaq plugin.",
+  "display_name": "Tapdaq: Mintegral",
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "tapdaq-mintegral",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq-mintegral_1.0.0_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-tapdaq/releases/download/v1.0.0/tapdaq-mintegral_1.0.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-12T11:18:21.565358",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "version": "1.0.0"
+}

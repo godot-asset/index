@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "category": "misc",
+  "dependencies": [
+    "tapdaq@1.0.0"
+  ],
+  "description": "Facebook Audience Network adapter for Tapdaq plugin.",
+  "display_name": "Tapdaq: Facebook",
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "tapdaq-fan",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq-fan_1.0.0_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-tapdaq/releases/download/v1.0.0/tapdaq-fan_1.0.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-12T11:17:44.527405",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "version": "1.0.0"
+}

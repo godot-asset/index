@@ -1,0 +1,26 @@
+{
+  "author": {
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "category": "misc",
+  "dependencies": [
+    "tapdaq@1.0.0"
+  ],
+  "description": "UnityAds adapter for Tapdaq plugin.",
+  "display_name": "Tapdaq: UnityAds",
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "tapdaq-unityads",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq-unityads_1.0.0_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-tapdaq/releases/download/v1.0.0/tapdaq-unityads_1.0.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-12T11:18:47.389325",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "version": "1.0.0"
+}

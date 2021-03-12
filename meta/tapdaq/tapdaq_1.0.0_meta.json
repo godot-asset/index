@@ -1,0 +1,41 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "tapdaq": "*res://scripts/tapdaq.gd"
+  },
+  "category": "misc",
+  "description": "Tapdaq SDK. Ad mediation and header-bidding solution.",
+  "display_name": "Tapdaq",
+  "files": [
+    {
+      "name": "tapdaq_1.0.0_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-tapdaq/releases/download/v1.0.0/tapdaq_1.0.0_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "tapdaq",
+  "platform_android": {
+    "files": [
+      {
+        "name": "tapdaq_1.0.0_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-tapdaq/releases/download/v1.0.0/tapdaq_1.0.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-12T11:16:28.987511",
+  "url": "https://github.com/DrMoriarty/godot-tapdaq.git",
+  "variables": {
+    "Tapdaq/AppId": {
+      "info": "Set your App ID here"
+    },
+    "Tapdaq/ClientKey": {
+      "info": "Set your Client Key here"
+    }
+  },
+  "version": "1.0.0"
+}

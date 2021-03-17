@@ -1,0 +1,36 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "messaging": "*res://scripts/messaging.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "firebase-core@0.1.0"
+  ],
+  "description": "Firebase Cloud Messaging plugin. Recommended for use with FirebaseAnalytics.",
+  "display_name": "Firebase Cloud Messaging",
+  "files": [
+    {
+      "name": "firebase-cloud-messaging_0.1.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-firebase-cloudmessaging/releases/download/v0.1.1/firebase-cloud-messaging_0.1.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "firebase-cloud-messaging",
+  "platform_android": {
+    "files": [
+      {
+        "name": "firebase-cloud-messaging_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-firebase-cloudmessaging/releases/download/v0.1.1/firebase-cloud-messaging_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-17T06:53:43.114217",
+  "url": "https://github.com/DrMoriarty/godot-firebase-cloudmessaging",
+  "version": "0.1.1"
+}

@@ -1,0 +1,53 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "appsflyer": "*res://scripts/appsflyer.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "nativelib-export@0.1.0"
+  ],
+  "description": "AppsFlyer SDK. Attribution data you can trust.",
+  "display_name": "AppsFlyer",
+  "files": [
+    {
+      "name": "appsflyer_0.2.3_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-appsflyer/releases/download/v0.2.3/appsflyer_0.2.3_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.3",
+  "license": "MIT",
+  "name": "appsflyer",
+  "platform_android": {
+    "files": [
+      {
+        "name": "appsflyer_0.2.3_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-appsflyer/releases/download/v0.2.3/appsflyer_0.2.3_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [],
+    "files": [
+      {
+        "name": "appsflyer_0.2.3_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-appsflyer/releases/download/v0.2.3/appsflyer_0.2.3_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-03-21T17:41:08.501607",
+  "url": "https://github.com/DrMoriarty/godot-appsflyer.git",
+  "variables": {
+    "AppsFlyer/APP_ID": {
+      "info": "Set your Apple App ID here"
+    },
+    "AppsFlyer/DevKey": {
+      "info": "Set your DevKey here"
+    }
+  },
+  "version": "0.2.3"
+}

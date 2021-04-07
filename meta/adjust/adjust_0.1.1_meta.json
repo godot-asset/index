@@ -1,0 +1,38 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "adjust": "*res://scripts/adjust.gd"
+  },
+  "category": "misc",
+  "description": "Adjust: attribution, analytics, fraud prevention",
+  "display_name": "Adjust SDK",
+  "files": [
+    {
+      "name": "adjust_0.1.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-adjust/releases/download/v0.1.1/adjust_0.1.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.2.4",
+  "license": "MIT",
+  "name": "adjust",
+  "platform_ios": {
+    "files": [
+      {
+        "name": "adjust_0.1.1_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-adjust/releases/download/v0.1.1/adjust_0.1.1_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-04-07T08:36:03.046043",
+  "url": "https://github.com/DrMoriarty/godot-adjust",
+  "variables": {
+    "Adjust/AppToken": {
+      "info": "Set your App Token here"
+    }
+  },
+  "version": "0.1.1"
+}

@@ -1,0 +1,41 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "rateme": "*res://scripts/rateme.gd"
+  },
+  "category": "misc",
+  "description": "Plugin for asking user to rate your app",
+  "display_name": "RateMe",
+  "files": [
+    {
+      "name": "rateme_0.2.0_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-rateme/releases/download/v0.2.0/rateme_0.2.0_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "rateme",
+  "platform_android": {
+    "files": [
+      {
+        "name": "rateme_0.2.0_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-rateme/releases/download/v0.2.0/rateme_0.2.0_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "files": [
+      {
+        "name": "rateme_0.2.0_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-rateme/releases/download/v0.2.0/rateme_0.2.0_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-04-27T15:04:03.629001",
+  "url": "https://github.com/DrMoriarty/godot-rateme.git",
+  "version": "0.2.0"
+}

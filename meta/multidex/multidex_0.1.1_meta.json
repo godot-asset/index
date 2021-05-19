@@ -1,0 +1,24 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "category": "misc",
+  "description": "Multidex support plugin",
+  "display_name": "Multidex",
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "multidex",
+  "platform_android": {
+    "files": [
+      {
+        "name": "multidex_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-multidex/releases/download/v0.1.1/multidex_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-05-19T08:35:05.186829",
+  "url": "https://github.com/DrMoriarty/godot-multidex.git",
+  "version": "0.1.1"
+}

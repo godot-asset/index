@@ -1,0 +1,27 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "category": "misc",
+  "dependencies": [
+    "applovinmax@0.1.1"
+  ],
+  "description": "TapJoy adapter for AppLovin-Max plugin.",
+  "display_name": "AppLovin-Max TapJoy",
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "applovinmax-tapjoy",
+  "platform_android": {
+    "files": [
+      {
+        "name": "applovinmax-tapjoy_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-applovin-max/releases/download/v0.1.1/applovinmax-tapjoy_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-05-19T06:01:04.291552",
+  "url": "https://github.com/DrMoriarty/godot-applovinmax.git",
+  "version": "0.1.1"
+}

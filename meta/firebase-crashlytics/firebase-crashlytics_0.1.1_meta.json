@@ -1,0 +1,27 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "category": "misc",
+  "dependencies": [
+    "firebase-core@0.1.1"
+  ],
+  "description": "Firebase crashlytics plugin",
+  "display_name": "Firebase Crashlytics",
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "firebase-crashlytics",
+  "platform_android": {
+    "files": [
+      {
+        "name": "firebase-crashlytics_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-firebase-crashlytics/releases/download/v0.1.1/firebase-crashlytics_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-05-19T07:46:26.293773",
+  "url": "https://github.com/DrMoriarty/godot-firebase-crashlytics.git",
+  "version": "0.1.1"
+}

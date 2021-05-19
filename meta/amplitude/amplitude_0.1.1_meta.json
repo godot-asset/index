@@ -1,0 +1,47 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "amplitude": "*res://scripts/amplitude.gd"
+  },
+  "category": "misc",
+  "description": "Amplitude analytics plugin",
+  "display_name": "Amplitude",
+  "files": [
+    {
+      "name": "amplitude_0.1.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-amplitude/releases/download/v0.1.1/amplitude_0.1.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "amplitude",
+  "platform_android": {
+    "files": [
+      {
+        "name": "amplitude_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-amplitude/releases/download/v0.1.1/amplitude_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [],
+    "files": [
+      {
+        "name": "amplitude_0.1.1_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-amplitude/releases/download/v0.1.1/amplitude_0.1.1_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-05-19T05:29:06.284963",
+  "url": "https://github.com/DrMoriarty/godot-amplitude",
+  "variables": {
+    "Amplitude/API_KEY": {
+      "info": "Set your Amplitude API Key here"
+    }
+  },
+  "version": "0.1.1"
+}

@@ -1,0 +1,33 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "Network": "*res://scripts/Network.gd"
+  },
+  "category": "misc",
+  "description": "Native network functions",
+  "display_name": "Network",
+  "files": [
+    {
+      "name": "network_0.1.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-network/releases/download/v0.1.1/network_0.1.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "network",
+  "platform_android": {
+    "files": [
+      {
+        "name": "network_0.1.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-network/releases/download/v0.1.1/network_0.1.1_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-05-19T08:39:29.357464",
+  "url": "https://github.com/DrMoriarty/godot-network",
+  "version": "0.1.1"
+}

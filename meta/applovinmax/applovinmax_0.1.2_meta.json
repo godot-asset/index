@@ -1,0 +1,50 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "applovin_max": "*res://scripts/applovin_max.gd"
+  },
+  "category": "misc",
+  "dependencies": [],
+  "description": "AppLovin-Max plugin. Ad mediation and header-bidding solution.",
+  "display_name": "AppLovin-Max",
+  "files": [
+    {
+      "name": "applovinmax_0.1.2_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-applovin-max/releases/download/v0.1.2/applovinmax_0.1.2_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "applovinmax",
+  "platform_android": {
+    "files": [
+      {
+        "name": "applovinmax_0.1.2_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-applovin-max/releases/download/v0.1.2/applovinmax_0.1.2_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "dependencies": [
+      "nativelib-export@0.2.0"
+    ],
+    "files": [
+      {
+        "name": "applovinmax_0.1.2_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-applovin-max/releases/download/v0.1.2/applovinmax_0.1.2_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-05-26T19:23:13.875622",
+  "url": "https://github.com/DrMoriarty/godot-applovin-max.git",
+  "variables": {
+    "AppLovin/SdkKey": {
+      "info": "Set your SDK key here"
+    }
+  },
+  "version": "0.1.2"
+}

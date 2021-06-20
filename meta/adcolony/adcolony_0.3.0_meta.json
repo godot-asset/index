@@ -1,0 +1,41 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "adcolony": "*res://scripts/adcolony.gd"
+  },
+  "category": "misc",
+  "description": "AdColony SDK. Ad network for mobile applications.",
+  "display_name": "AdColony",
+  "files": [
+    {
+      "name": "adcolony_0.3.0_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-adcolony/releases/download/v0.3.0/adcolony_0.3.0_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.2",
+  "license": "MIT",
+  "name": "adcolony",
+  "platform_android": {
+    "files": [
+      {
+        "name": "adcolony_0.3.0_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-adcolony/releases/download/v0.3.0/adcolony_0.3.0_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-06-20T12:58:19.288521",
+  "url": "https://github.com/DrMoriarty/godot-adcolony",
+  "variables": {
+    "AdColony/AppId": {
+      "info": "Set your App ID here"
+    },
+    "AdColony/ZoneId": {
+      "info": "Set your Zone ID here (separate by comma if more than one zone)"
+    }
+  },
+  "version": "0.3.0"
+}

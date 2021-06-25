@@ -1,0 +1,39 @@
+{
+  "author": {
+    "name": "Godot core team",
+    "url": "https://godotengine.org"
+  },
+  "category": "misc",
+  "description": "Apple AppStore plugin",
+  "display_name": "AppStore",
+  "godot_version": "3.3.2",
+  "license": "MIT",
+  "name": "core.inappstore",
+  "platform_ios": {
+    "files": [
+      {
+        "name": "core.inappstore_3.3.2.1_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-core-ios-plugins/releases/download/v3.3.2.1/core.inappstore_3.3.2.1_ios.tgz"
+      }
+    ]
+  },
+  "platform_osx": {
+    "files": [
+      {
+        "name": "core.inappstore_3.3.2.1_osx.tgz",
+        "url": "https://github.com/DrMoriarty/godot-core-ios-plugins/releases/download/v3.3.2.1/core.inappstore_3.3.2.1_osx.tgz"
+      }
+    ]
+  },
+  "platform_tvos": {
+    "files": [
+      {
+        "name": "core.inappstore_3.3.2.1_tvos.tgz",
+        "url": "https://github.com/DrMoriarty/godot-core-ios-plugins/releases/download/v3.3.2.1/core.inappstore_3.3.2.1_tvos.tgz"
+      }
+    ]
+  },
+  "updated": "2021-06-25T14:38:28.183019",
+  "url": "https://github.com/godotengine/godot-ios-plugins",
+  "version": "3.3.2.1"
+}

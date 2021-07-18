@@ -1,0 +1,36 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "ATT": "*res://scripts/att.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "nativelib-export@0.2.0"
+  ],
+  "description": "",
+  "display_name": "AppTrackingTransparency",
+  "files": [
+    {
+      "name": "ios-att_1.0.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-ios-att/releases/download/v1.0.1/ios-att_1.0.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "ios-att",
+  "platform_ios": {
+    "files": [
+      {
+        "name": "ios-att_1.0.1_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-ios-att/releases/download/v1.0.1/ios-att_1.0.1_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-07-18T14:46:59.417647",
+  "url": "https://github.com/DrMoriarty/godot-ios-att",
+  "version": "1.0.1"
+}

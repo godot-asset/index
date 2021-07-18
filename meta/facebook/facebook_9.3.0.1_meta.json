@@ -1,0 +1,50 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "facebook": "*res://scripts/facebook.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "nativelib-export@0.2.0"
+  ],
+  "description": "Facebook plugin",
+  "display_name": "Facebook SDK",
+  "files": [
+    {
+      "name": "facebook_9.3.0.1_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-facebook/releases/download/v9.3.0.1/facebook_9.3.0.1_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "facebook",
+  "platform_android": {
+    "android_module": "org/godotengine/godot/GodotFacebook",
+    "files": [
+      {
+        "name": "facebook_9.3.0.1_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-facebook/releases/download/v9.3.0.1/facebook_9.3.0.1_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "files": [
+      {
+        "name": "facebook_9.3.0.1_ios.tgz",
+        "url": "https://github.com/DrMoriarty/godot-facebook/releases/download/v9.3.0.1/facebook_9.3.0.1_ios.tgz"
+      }
+    ]
+  },
+  "updated": "2021-07-18T15:06:16.204768",
+  "url": "https://github.com/DrMoriarty/godot-facebook",
+  "variables": {
+    "Facebook/FB_APP_ID": {
+      "info": "Set your Facebook App ID here"
+    }
+  },
+  "version": "9.3.0.1"
+}

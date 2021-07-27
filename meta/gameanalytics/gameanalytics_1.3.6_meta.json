@@ -1,0 +1,96 @@
+{
+  "author": {
+    "name": "the1schwartz",
+    "url": "https://github.com/the1schwartz"
+  },
+  "autoload": {
+    "gameanalytics": "*res://scripts/gameanalytics.gd"
+  },
+  "category": "analytics",
+  "description": "Official Godot SDK for GameAnalytics. GameAnalytics is a free analytics platform that helps game developers understand their players' behaviour by delivering relevant insights.",
+  "display_name": "GameAnalytics",
+  "files": [
+    {
+      "name": "gameanalytics_1.3.6_all.tgz",
+      "url": "https://github.com/GameAnalytics/godot-gameanalytics/releases/download/v1.3.6/gameanalytics_1.3.6_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.2",
+  "icon_url": "https://github.com/GameAnalytics/godot-gameanalytics/icon/ga_icon.png",
+  "license": "MIT",
+  "name": "gameanalytics",
+  "platform_android": {
+    "files": [
+      {
+        "name": "gameanalytics_1.3.6_android.tgz",
+        "url": "https://github.com/GameAnalytics/godot-gameanalytics/releases/download/v1.3.6/gameanalytics_1.3.6_android.tgz"
+      }
+    ]
+  },
+  "platform_ios": {
+    "files": [
+      {
+        "name": "gameanalytics_1.3.6_ios.tgz",
+        "url": "https://github.com/GameAnalytics/godot-gameanalytics/releases/download/v1.3.6/gameanalytics_1.3.6_ios.tgz"
+      }
+    ]
+  },
+  "platform_osx": {
+    "files": [
+      {
+        "name": "gameanalytics_1.3.6_osx.tgz",
+        "url": "https://github.com/GameAnalytics/godot-gameanalytics/releases/download/v1.3.6/gameanalytics_1.3.6_osx.tgz"
+      }
+    ]
+  },
+  "readme_url": "https://github.com/GameAnalytics/godot-gameanalytics/README.md",
+  "tags": [
+    "analytics",
+    "ios",
+    "android",
+    "osx"
+  ],
+  "updated": "2021-07-27T10:56:42.081631",
+  "url": "https://github.com/GameAnalytics/godot-gameanalytics.git",
+  "variables": {
+    "GameAnalytics/AndroidGAME_KEY": {
+      "info": "Game key for Android"
+    },
+    "GameAnalytics/AndroidSECRET_KEY": {
+      "info": "Secret key for Android"
+    },
+    "GameAnalytics/CustomDimensions01": {
+      "default": "ninja,samurai",
+      "info": "Available custom dimensions 01"
+    },
+    "GameAnalytics/CustomDimensions02": {
+      "default": "whale,dolphin",
+      "info": "Available custom dimensions 02"
+    },
+    "GameAnalytics/CustomDimensions03": {
+      "default": "horde,alliance",
+      "info": "Available custom dimensions 03"
+    },
+    "GameAnalytics/OSXGAME_KEY": {
+      "info": "Game key for OSX"
+    },
+    "GameAnalytics/OSXSECRET_KEY": {
+      "info": "Secret key for OSX"
+    },
+    "GameAnalytics/ResourceCurrencies": {
+      "default": "gold,gems",
+      "info": "Available resource currencies"
+    },
+    "GameAnalytics/ResourceItemTypes": {
+      "default": "boost,lives",
+      "info": "Available resource item types"
+    },
+    "GameAnalytics/iOSGAME_KEY": {
+      "info": "Game key for iOS"
+    },
+    "GameAnalytics/iOSSECRET_KEY": {
+      "info": "Secret key for iOS"
+    }
+  },
+  "version": "1.3.6"
+}

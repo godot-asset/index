@@ -1,0 +1,36 @@
+{
+  "author": {
+    "donate": "https://ko-fi.com/drmoriarty",
+    "name": "DrMoriarty",
+    "url": "https://github.com/DrMoriarty"
+  },
+  "autoload": {
+    "auth": "*res://scripts/auth.gd"
+  },
+  "category": "misc",
+  "dependencies": [
+    "firebase-core@0.1.1"
+  ],
+  "description": "Firebase Auth plugin",
+  "display_name": "Firebase Auth",
+  "files": [
+    {
+      "name": "firebase-auth_0.1.2_all.tgz",
+      "url": "https://github.com/DrMoriarty/godot-firebase-auth/releases/download/v0.1.2/firebase-auth_0.1.2_all.tgz"
+    }
+  ],
+  "godot_version": "3.3.0",
+  "license": "MIT",
+  "name": "firebase-auth",
+  "platform_android": {
+    "files": [
+      {
+        "name": "firebase-auth_0.1.2_android.tgz",
+        "url": "https://github.com/DrMoriarty/godot-firebase-auth/releases/download/v0.1.2/firebase-auth_0.1.2_android.tgz"
+      }
+    ]
+  },
+  "updated": "2021-09-15T19:56:25.076821",
+  "url": "https://github.com/DrMoriarty/godot-firebase-auth",
+  "version": "0.1.2"
+}
